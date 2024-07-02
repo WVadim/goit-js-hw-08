@@ -84,6 +84,7 @@ const galleryItems = images
   .join('');
 
 galleryContainer.insertAdjacentHTML('beforeend', galleryItems);
+
 galleryContainer.addEventListener('click', e => {
   e.preventDefault();
   const clickedElement = e.target;
